@@ -35,4 +35,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+video {
+  @apply w-full md:h-[80%] h-1/2 absolute bottom-0 left-0 md:object-contain object-bottom object-cover bg-transparent
+}
+
 
